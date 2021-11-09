@@ -1,0 +1,2405 @@
+  .Issues {
+  width: 62.6px;
+  height: 22px;
+  flex-grow: 0;
+  padding-left:30px;
+  font-family: Swis721HvBT;
+  font-size: 18.7px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+}
+.Angka {
+  width: 44.7px;
+  height: 90px;
+  flex-grow: 0;
+  padding-left:30px;
+  font-family: Swis721HvBT;
+  font-size: 55.8px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+}
+
+.lines {
+  width: 85.3px;
+  height: 1.5px;
+  flex-grow: 0;
+  background-color: #fff;
+}
+
+.yellow {
+  width: 29.8px;
+  height: 30.2px;
+  flex-grow: 0;
+  border-radius:20px;
+  padding: 2.4px 2.4px 2px 4.4px;
+  border: solid 0.3px #bbdd2f;
+  background-color: #bbdd2f;
+}
+
+.biru {
+  width: 29.8px;
+  height: 30.2px;
+  flex-grow: 0;
+  border-radius:20px;
+  padding: 2.4px 2.4px 2px 4.4px;
+  background-color: #11cfc3;
+}
+
+.merah {
+  width: 29.8px;
+  height: 30.2px;
+  flex-grow: 0;
+  border-radius:20px;
+  padding: 2.4px 2.4px 2px 4.4px;
+  background-color:  #ff4537;
+}
+
+.oren {
+  width: 29.8px;
+  height: 30.2px;
+  flex-grow: 0;
+  border-radius:20px;
+  padding: 2.4px 2.4px 2px 4.4px;
+  background-color: #f9a000;
+}
+
+.status {
+  width: 44.7px;
+  height: 19px;
+  flex-grow: 0;
+  font-family: Roboto;
+  font-size: 16.3px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.judul {
+  width: 105.6px;
+  height: 29px;
+  flex-grow: 0;
+  font-family: Roboto;
+  font-size: 20.7px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.judul2 {
+  width: 105.6px;
+  height: 29px;
+  flex-grow: 0;
+  font-family: Roboto;
+  font-size: 9.7px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color : black;
+}
+
+.set-size2 {
+  font-size: 5.0em;
+}
+
+.set-size {
+  font-size: 9.5em;
+}
+
+.charts-container:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.pie-wrapper {
+  height: 1em;
+  width: 1em;
+  float: left;
+  position: relative;
+}
+
+.pies-wrapper {
+  height: 1em;
+  width: 1em;
+  float: left;
+  position: relative;
+}
+
+.pie-wrapper:nth-child(3n+1) {
+  clear: both;
+}
+
+.pies-wrapper:nth-child(3n+1) {
+  clear: both;
+}
+
+.pie-wrapper .pie {
+  height: 100%;
+  width: 100%;
+  clip: rect(0, 1em, 1em, 0.5em);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.pies-wrapper .pie {
+  height: 100%;
+  width: 100%;
+  clip: rect(0, 1em, 1em, 0.5em);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.pie-wrapper .pie .half-circle {
+  height: 100%;
+  width: 100%;
+  border: 0.1em solid #3498db;
+  border-radius: 100%;
+  clip: rect(0, 0.5em, 1em, 0);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.pies-wrapper .pie .half-circle {
+  height: 100%;
+  width: 100%;
+  border: 0.1em solid #3498db;
+  border-radius: 100%;
+  clip: rect(0, 0.5em, 1em, 0);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.pie-wrapper .label {
+  background: #34495e;
+  border-radius: 50%;
+  bottom: 0.4em;
+  cursor: default;
+  display: block;
+  font-size: 0.30em;
+  font-weight: bold;
+  left: 0.4em;
+  line-height: 2.6em;
+  position: absolute;
+  right: 0.4em;
+  text-align: center;
+  top: 0.4em;
+}
+
+.pies-wrapper .label {
+  background: #34495e;
+  border-radius: 50%;
+  bottom: 0.4em;
+  cursor: default;
+  display: block;
+  font-size: 0.30em;
+  font-weight: bold;
+  left: 0.4em;
+  line-height: 2.6em;
+  position: absolute;
+  right: 0.4em;
+  text-align: center;
+  top: 0.4em;
+}
+
+.pie-wrapper .label .smaller {
+  font-size: .45em;
+  padding-bottom: 20px;
+  vertical-align: super;
+}
+
+.pies-wrapper .label .smaller {
+  font-size: .45em;
+  padding-bottom: 20px;
+  vertical-align: super;
+}
+
+.pie-wrapper .shadow {
+  height: 100%;
+  width: 100%;
+  border: 0.1em solid #bdc3c7;
+  border-radius: 50%;
+}
+
+.pies-wrapper .shadow {
+  height: 100%;
+  width: 100%;
+  border: 0.1em solid #bdc3c7;
+  border-radius: 50%;
+}
+
+.pie-wrapper.style-2 .label {
+  background: none;
+}
+
+.pie-wrapper.style-2 .label .smaller {
+  color:none;
+}
+
+.pie-wrapper.progress-0 .pie .right-side {
+  display: none;
+}
+.pie-wrapper.progress-0 .pie .half-circle{
+  border-color:  #ff0000;
+}
+.pie-wrapper.progress-0 .pie .left-side {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.pie-wrapper.progress-1 .pie .right-side {
+  display: none;
+}
+.pie-wrapper.progress-1 .pie .half-circle{
+  border-color:  #ff0000;
+}
+.pie-wrapper.progress-1 .pie .left-side {
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+.pie-wrapper.progress-2 .pie .right-side {
+  display: none;
+}
+.pie-wrapper.progress-2 .pie .half-circle{
+  border-color:  #ff0000;
+}
+.pie-wrapper.progress-2 .pie .left-side {
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+
+.pie-wrapper.progress-3 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-3 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-3 .pie .left-side {
+  -webkit-transform: rotate(11deg);
+  transform: rotate(11deg);
+}
+
+.pie-wrapper.progress-4 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-4 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-4 .pie .left-side {
+  -webkit-transform: rotate(14deg);
+  transform: rotate(14deg);
+}
+
+.pie-wrapper.progress-5 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-5 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-5 .pie .left-side {
+  -webkit-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+
+.pie-wrapper.progress-6 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-6 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-6 .pie .left-side {
+  -webkit-transform: rotate(22deg);
+  transform: rotate(22deg);
+}
+
+.pie-wrapper.progress-7 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-7 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-7 .pie .left-side {
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+
+.pie-wrapper.progress-8 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-8 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-8 .pie .left-side {
+  -webkit-transform: rotate(29deg);
+  transform: rotate(29deg);
+}
+
+.pie-wrapper.progress-9 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-9 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-9 .pie .left-side {
+  -webkit-transform: rotate(32deg);
+  transform: rotate(32deg);
+}
+
+.pie-wrapper.progress-10 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-10 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-10 .pie .left-side {
+  -webkit-transform: rotate(36deg);
+  transform: rotate(36deg);
+}
+
+.pie-wrapper.progress-11 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-11 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-11 .pie .left-side {
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+
+.pie-wrapper.progress-12 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-12 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-12 .pie .left-side {
+  -webkit-transform: rotate(43deg);
+  transform: rotate(43deg);
+}
+
+.pie-wrapper.progress-13 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-13 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-13 .pie .left-side {
+  -webkit-transform: rotate(47deg);
+  transform: rotate(47deg);
+}
+
+.pie-wrapper.progress-14 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-14 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-14 .pie .left-side {
+  -webkit-transform: rotate(50deg);
+  transform: rotate(50deg);
+}
+
+.pie-wrapper.progress-15 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-15 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-15 .pie .left-side {
+  -webkit-transform: rotate(54deg);
+  transform: rotate(54deg);
+}
+
+.pie-wrapper.progress-16 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-16 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-16 .pie .left-side {
+  -webkit-transform: rotate(58deg);
+  transform: rotate(58deg);
+}
+
+.pie-wrapper.progress-17 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-17 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-17 .pie .left-side {
+  -webkit-transform: rotate(61deg);
+  transform: rotate(61deg);
+}
+
+.pie-wrapper.progress-18 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-18 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-18 .pie .left-side {
+  -webkit-transform: rotate(65deg);
+  transform: rotate(65deg);
+}
+
+.pie-wrapper.progress-19 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-19 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-19 .pie .left-side {
+  -webkit-transform: rotate(68deg);
+  transform: rotate(68deg);
+}
+
+.pie-wrapper.progress-20 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-20 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-20 .pie .left-side {
+  -webkit-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+
+.pie-wrapper.progress-21 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-21 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-21 .pie .left-side {
+  -webkit-transform: rotate(76deg);
+  transform: rotate(76deg);
+}
+
+.pie-wrapper.progress-22 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-22 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-22 .pie .left-side {
+  -webkit-transform: rotate(79deg);
+  transform: rotate(79deg);
+}
+
+.pie-wrapper.progress-23 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-23 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-23 .pie .left-side {
+  -webkit-transform: rotate(83deg);
+  transform: rotate(83deg);
+}
+
+.pie-wrapper.progress-24 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-24 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-24 .pie .left-side {
+  -webkit-transform: rotate(86deg);
+  transform: rotate(86deg);
+}
+
+.pie-wrapper.progress-25 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-25 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-25 .pie .left-side {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.pie-wrapper.progress-26 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-26 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-26 .pie .left-side {
+  -webkit-transform: rotate(94deg);
+  transform: rotate(94deg);
+}
+
+.pie-wrapper.progress-27 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-27 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-27 .pie .left-side {
+  -webkit-transform: rotate(97deg);
+  transform: rotate(97deg);
+}
+
+.pie-wrapper.progress-28 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-28 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-28 .pie .left-side {
+  -webkit-transform: rotate(101deg);
+  transform: rotate(101deg);
+}
+
+.pie-wrapper.progress-29 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-29 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-29 .pie .left-side {
+  -webkit-transform: rotate(104deg);
+  transform: rotate(104deg);
+}
+
+.pie-wrapper.progress-30 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-30 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-30 .pie .left-side {
+  -webkit-transform: rotate(108deg);
+  transform: rotate(108deg);
+}
+
+.pie-wrapper.progress-31 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-31 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-31 .pie .left-side {
+  -webkit-transform: rotate(112deg);
+  transform: rotate(112deg);
+}
+
+.pie-wrapper.progress-32 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-32 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-32 .pie .left-side {
+  -webkit-transform: rotate(115deg);
+  transform: rotate(115deg);
+}
+
+.pie-wrapper.progress-33 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-33 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-33 .pie .left-side {
+  -webkit-transform: rotate(119deg);
+  transform: rotate(119deg);
+}
+
+.pie-wrapper.progress-34 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-34 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-34 .pie .left-side {
+  -webkit-transform: rotate(122deg);
+  transform: rotate(122deg);
+}
+
+.pie-wrapper.progress-35 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-35 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-35 .pie .left-side {
+  -webkit-transform: rotate(126deg);
+  transform: rotate(126deg);
+}
+
+.pie-wrapper.progress-36 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-36 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-36 .pie .left-side {
+  -webkit-transform: rotate(130deg);
+  transform: rotate(130deg);
+}
+
+.pie-wrapper.progress-37 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-37 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-37 .pie .left-side {
+  -webkit-transform: rotate(133deg);
+  transform: rotate(133deg);
+}
+
+.pie-wrapper.progress-38 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-38 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-38 .pie .left-side {
+  -webkit-transform: rotate(137deg);
+  transform: rotate(137deg);
+}
+
+.pie-wrapper.progress-39 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-39 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-39 .pie .left-side {
+  -webkit-transform: rotate(140deg);
+  transform: rotate(140deg);
+}
+
+.pie-wrapper.progress-40 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-40 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-40 .pie .left-side {
+  -webkit-transform: rotate(144deg);
+  transform: rotate(144deg);
+}
+
+.pie-wrapper.progress-41 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-41 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-41 .pie .left-side {
+  -webkit-transform: rotate(148deg);
+  transform: rotate(148deg);
+}
+
+.pie-wrapper.progress-42 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-42 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-42 .pie .left-side {
+  -webkit-transform: rotate(151deg);
+  transform: rotate(151deg);
+}
+
+.pie-wrapper.progress-43 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-43 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-43 .pie .left-side {
+  -webkit-transform: rotate(155deg);
+  transform: rotate(155deg);
+}
+
+.pie-wrapper.progress-44 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-44 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-44 .pie .left-side {
+  -webkit-transform: rotate(158deg);
+  transform: rotate(158deg);
+}
+
+.pie-wrapper.progress-45 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-45 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-45 .pie .left-side {
+  -webkit-transform: rotate(162deg);
+  transform: rotate(162deg);
+}
+
+.pie-wrapper.progress-46 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-46 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-46 .pie .left-side {
+  -webkit-transform: rotate(166deg);
+  transform: rotate(166deg);
+}
+
+.pie-wrapper.progress-47 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-47 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-47 .pie .left-side {
+  -webkit-transform: rotate(169deg);
+  transform: rotate(169deg);
+}
+
+.pie-wrapper.progress-48 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-48 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-48 .pie .left-side {
+  -webkit-transform: rotate(173deg);
+  transform: rotate(173deg);
+}
+
+.pie-wrapper.progress-49 .pie .right-side {
+  display: none;
+}.pie-wrapper.progress-49 .pie .half-circle{
+  border-color:  #ff0000;
+}.pie-wrapper.progress-49 .pie .left-side {
+  -webkit-transform: rotate(176deg);
+  transform: rotate(176deg);
+}
+
+.pie-wrapper.progress-50 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-50 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-50 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-50 .pie .left-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.pie-wrapper.progress-51 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-51 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-51 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-51 .pie .left-side {
+  -webkit-transform: rotate(184deg);
+  transform: rotate(184deg);
+}
+
+.pie-wrapper.progress-52 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-52 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-52 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-52 .pie .left-side {
+  -webkit-transform: rotate(187deg);
+  transform: rotate(187deg);
+}
+
+.pie-wrapper.progress-53 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-53 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-53 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-53 .pie .left-side {
+  -webkit-transform: rotate(191deg);
+  transform: rotate(191deg);
+}
+
+.pie-wrapper.progress-54 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-54 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-54 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-54 .pie .left-side {
+  -webkit-transform: rotate(194deg);
+  transform: rotate(194deg);
+}
+
+.pie-wrapper.progress-55 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-55 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-55 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-55 .pie .left-side {
+  -webkit-transform: rotate(198deg);
+  transform: rotate(198deg);
+}
+
+.pie-wrapper.progress-56 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-56 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-56 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-56 .pie .left-side {
+  -webkit-transform: rotate(202deg);
+  transform: rotate(202deg);
+}
+
+.pie-wrapper.progress-57 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-57 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-57 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-57 .pie .left-side {
+  -webkit-transform: rotate(205deg);
+  transform: rotate(205deg);
+}
+
+.pie-wrapper.progress-58 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-58 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-58 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-58 .pie .left-side {
+  -webkit-transform: rotate(209deg);
+  transform: rotate(209deg);
+}
+
+.pie-wrapper.progress-59 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-59 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-59 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-59 .pie .left-side {
+  -webkit-transform: rotate(212deg);
+  transform: rotate(212deg);
+}
+
+.pie-wrapper.progress-60 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-60 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-60 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-60 .pie .left-side {
+  -webkit-transform: rotate(216deg);
+  transform: rotate(216deg);
+}
+
+.pie-wrapper.progress-61 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-61 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-61 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-61 .pie .left-side {
+  -webkit-transform: rotate(220deg);
+  transform: rotate(220deg);
+}
+
+.pie-wrapper.progress-62 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-62 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-62 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-62 .pie .left-side {
+  -webkit-transform: rotate(223deg);
+  transform: rotate(223deg);
+}
+
+.pie-wrapper.progress-63 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-63 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-63 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-63 .pie .left-side {
+  -webkit-transform: rotate(227deg);
+  transform: rotate(227deg);
+}
+
+.pie-wrapper.progress-64 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-64 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-64 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-64 .pie .left-side {
+  -webkit-transform: rotate(230deg);
+  transform: rotate(230deg);
+}
+
+.pie-wrapper.progress-65 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-65 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-65 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-65 .pie .left-side {
+  -webkit-transform: rotate(234deg);
+  transform: rotate(234deg);
+}
+
+.pie-wrapper.progress-66 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-66 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-66 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-66 .pie .left-side {
+  -webkit-transform: rotate(238deg);
+  transform: rotate(238deg);
+}
+
+.pie-wrapper.progress-67 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-67 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-67 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-67 .pie .left-side {
+  -webkit-transform: rotate(241deg);
+  transform: rotate(241deg);
+}
+
+.pie-wrapper.progress-68 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-68 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-68 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-68 .pie .left-side {
+  -webkit-transform: rotate(245deg);
+  transform: rotate(245deg);
+}
+
+.pie-wrapper.progress-69 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-69 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-69 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-69 .pie .left-side {
+  -webkit-transform: rotate(248deg);
+  transform: rotate(248deg);
+}
+
+.pie-wrapper.progress-70 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-70 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-70 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-70 .pie .left-side {
+  -webkit-transform: rotate(252deg);
+  transform: rotate(252deg);
+}
+
+.pie-wrapper.progress-71 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-71 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-71 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-71 .pie .left-side {
+  -webkit-transform: rotate(256deg);
+  transform: rotate(256deg);
+}
+
+.pie-wrapper.progress-72 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-72 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-72 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-72 .pie .left-side {
+  -webkit-transform: rotate(259deg);
+  transform: rotate(259deg);
+}
+
+.pie-wrapper.progress-73 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-73 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-73 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-73 .pie .left-side {
+  -webkit-transform: rotate(263deg);
+  transform: rotate(263deg);
+}
+
+.pie-wrapper.progress-74 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-74 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-74 .pie .half-circle {
+  border-color: #ffff00;
+}.pie-wrapper.progress-74 .pie .left-side {
+  -webkit-transform: rotate(266deg);
+  transform: rotate(266deg);
+}
+
+.pie-wrapper.progress-75 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-75 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-75 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-75 .pie .left-side {
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.pie-wrapper.progress-76 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-76 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-76 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-76 .pie .left-side {
+  -webkit-transform: rotate(274deg);
+  transform: rotate(274deg);
+}
+
+.pie-wrapper.progress-77 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-77 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-77 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-77 .pie .left-side {
+  -webkit-transform: rotate(277deg);
+  transform: rotate(277deg);
+}
+
+.pie-wrapper.progress-78 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-78 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-78 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-78 .pie .left-side {
+  -webkit-transform: rotate(281deg);
+  transform: rotate(281deg);
+}
+
+.pie-wrapper.progress-79 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-79 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-79 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-79 .pie .left-side {
+  -webkit-transform: rotate(284deg);
+  transform: rotate(284deg);
+}
+
+.pie-wrapper.progress-80 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-80 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-80 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-80 .pie .left-side {
+  -webkit-transform: rotate(288deg);
+  transform: rotate(288deg);
+}
+
+.pie-wrapper.progress-81 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-81 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-81 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-81 .pie .left-side {
+  -webkit-transform: rotate(292deg);
+  transform: rotate(292deg);
+}
+
+.pie-wrapper.progress-82 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-82 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-82 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-82 .pie .left-side {
+  -webkit-transform: rotate(295deg);
+  transform: rotate(295deg);
+}
+
+.pie-wrapper.progress-83 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-83 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-83 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-83 .pie .left-side {
+  -webkit-transform: rotate(299deg);
+  transform: rotate(299deg);
+}
+
+.pie-wrapper.progress-84 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-84 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-84 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-84 .pie .left-side {
+  -webkit-transform: rotate(302deg);
+  transform: rotate(302deg);
+}
+
+.pie-wrapper.progress-85 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-85 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-85 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-85 .pie .left-side {
+  -webkit-transform: rotate(306deg);
+  transform: rotate(306deg);
+}
+
+.pie-wrapper.progress-86 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-86 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-86 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-86 .pie .left-side {
+  -webkit-transform: rotate(310deg);
+  transform: rotate(310deg);
+}
+
+.pie-wrapper.progress-87 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-87 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-87 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-87 .pie .left-side {
+  -webkit-transform: rotate(313deg);
+  transform: rotate(313deg);
+}
+
+.pie-wrapper.progress-88 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-88 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-88 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-88 .pie .left-side {
+  -webkit-transform: rotate(317deg);
+  transform: rotate(317deg);
+}
+
+.pie-wrapper.progress-89 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-89 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-89 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-89 .pie .left-side {
+  -webkit-transform: rotate(320deg);
+  transform: rotate(320deg);
+}
+
+.pie-wrapper.progress-90 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-90 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-90 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-90 .pie .left-side {
+  -webkit-transform: rotate(324deg);
+  transform: rotate(324deg);
+}
+
+.pie-wrapper.progress-91 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-91 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-91 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-91 .pie .left-side {
+  -webkit-transform: rotate(328deg);
+  transform: rotate(328deg);
+}
+
+.pie-wrapper.progress-92 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-92 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-92 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-92 .pie .left-side {
+  -webkit-transform: rotate(331deg);
+  transform: rotate(331deg);
+}
+
+.pie-wrapper.progress-93 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-93 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-93 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-93 .pie .left-side {
+  -webkit-transform: rotate(335deg);
+  transform: rotate(335deg);
+}
+
+.pie-wrapper.progress-94 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-94 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-94 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-94 .pie .left-side {
+  -webkit-transform: rotate(338deg);
+  transform: rotate(338deg);
+}
+
+.pie-wrapper.progress-95 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-95 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-95 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-95 .pie .left-side {
+  -webkit-transform: rotate(342deg);
+  transform: rotate(342deg);
+}
+
+.pie-wrapper.progress-96 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-96 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-96 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-96 .pie .left-side {
+  -webkit-transform: rotate(346deg);
+  transform: rotate(346deg);
+}
+
+.pie-wrapper.progress-97 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-97 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-97 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-97 .pie .left-side {
+  -webkit-transform: rotate(349deg);
+  transform: rotate(349deg);
+}
+
+.pie-wrapper.progress-98 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-98 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-98 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-98 .pie .left-side {
+  -webkit-transform: rotate(353deg);
+  transform: rotate(353deg);
+}
+
+.pie-wrapper.progress-99 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-99 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-99 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-99 .pie .left-side {
+  -webkit-transform: rotate(356deg);
+  transform: rotate(356deg);
+}
+
+.pie-wrapper.progress-100 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pie-wrapper.progress-100 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pie-wrapper.progress-100 .pie .half-circle {
+  border-color: #00ff00;
+}.pie-wrapper.progress-100 .pie .left-side {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+
+.pies-wrapper.style-3 .label {
+  background: none;
+}
+
+.pies-wrapper.style-3 .label .smaller {
+  color:none;
+}
+
+.pies-wrapper.progress-0 .pie .right-side {
+  display: none;
+}
+.pies-wrapper.progress-0 .pie .half-circle{
+  border-color:  #00ff00;
+}
+.pies-wrapper.progress-0 .pie .left-side {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.pies-wrapper.progress-1 .pie .right-side {
+  display: none;
+}
+.pies-wrapper.progress-1 .pie .half-circle{
+  border-color:  #ffff00;
+}
+.pies-wrapper.progress-1 .pie .left-side {
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+.pies-wrapper.progress-2 .pie .right-side {
+  display: none;
+}
+.pies-wrapper.progress-2 .pie .half-circle{
+  border-color:  #ff0000;
+}
+.pies-wrapper.progress-2 .pie .left-side {
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+
+.pies-wrapper.progress-3 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-3 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-3 .pie .left-side {
+  -webkit-transform: rotate(11deg);
+  transform: rotate(11deg);
+}
+
+.pies-wrapper.progress-4 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-4 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-4 .pie .left-side {
+  -webkit-transform: rotate(14deg);
+  transform: rotate(14deg);
+}
+
+.pies-wrapper.progress-5 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-5 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-5 .pie .left-side {
+  -webkit-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+
+.pies-wrapper.progress-6 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-6 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-6 .pie .left-side {
+  -webkit-transform: rotate(22deg);
+  transform: rotate(22deg);
+}
+
+.pies-wrapper.progress-7 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-7 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-7 .pie .left-side {
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+
+.pies-wrapper.progress-8 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-8 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-8 .pie .left-side {
+  -webkit-transform: rotate(29deg);
+  transform: rotate(29deg);
+}
+
+.pies-wrapper.progress-9 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-9 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-9 .pie .left-side {
+  -webkit-transform: rotate(32deg);
+  transform: rotate(32deg);
+}
+
+.pies-wrapper.progress-10 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-10 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-10 .pie .left-side {
+  -webkit-transform: rotate(36deg);
+  transform: rotate(36deg);
+}
+
+.pies-wrapper.progress-11 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-11 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-11 .pie .left-side {
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+
+.pies-wrapper.progress-12 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-12 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-12 .pie .left-side {
+  -webkit-transform: rotate(43deg);
+  transform: rotate(43deg);
+}
+
+.pies-wrapper.progress-13 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-13 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-13 .pie .left-side {
+  -webkit-transform: rotate(47deg);
+  transform: rotate(47deg);
+}
+
+.pies-wrapper.progress-14 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-14 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-14 .pie .left-side {
+  -webkit-transform: rotate(50deg);
+  transform: rotate(50deg);
+}
+
+.pies-wrapper.progress-15 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-15 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-15 .pie .left-side {
+  -webkit-transform: rotate(54deg);
+  transform: rotate(54deg);
+}
+
+.pies-wrapper.progress-16 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-16 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-16 .pie .left-side {
+  -webkit-transform: rotate(58deg);
+  transform: rotate(58deg);
+}
+
+.pies-wrapper.progress-17 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-17 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-17 .pie .left-side {
+  -webkit-transform: rotate(61deg);
+  transform: rotate(61deg);
+}
+
+.pies-wrapper.progress-18 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-18 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-18 .pie .left-side {
+  -webkit-transform: rotate(65deg);
+  transform: rotate(65deg);
+}
+
+.pies-wrapper.progress-19 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-19 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-19 .pie .left-side {
+  -webkit-transform: rotate(68deg);
+  transform: rotate(68deg);
+}
+
+.pies-wrapper.progress-20 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-20 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-20 .pie .left-side {
+  -webkit-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+
+.pies-wrapper.progress-21 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-21 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-21 .pie .left-side {
+  -webkit-transform: rotate(76deg);
+  transform: rotate(76deg);
+}
+
+.pies-wrapper.progress-22 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-22 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-22 .pie .left-side {
+  -webkit-transform: rotate(79deg);
+  transform: rotate(79deg);
+}
+
+.pies-wrapper.progress-23 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-23 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-23 .pie .left-side {
+  -webkit-transform: rotate(83deg);
+  transform: rotate(83deg);
+}
+
+.pies-wrapper.progress-24 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-24 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-24 .pie .left-side {
+  -webkit-transform: rotate(86deg);
+  transform: rotate(86deg);
+}
+
+.pies-wrapper.progress-25 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-25 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-25 .pie .left-side {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.pies-wrapper.progress-26 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-26 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-26 .pie .left-side {
+  -webkit-transform: rotate(94deg);
+  transform: rotate(94deg);
+}
+
+.pies-wrapper.progress-27 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-27 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-27 .pie .left-side {
+  -webkit-transform: rotate(97deg);
+  transform: rotate(97deg);
+}
+
+.pies-wrapper.progress-28 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-28 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-28 .pie .left-side {
+  -webkit-transform: rotate(101deg);
+  transform: rotate(101deg);
+}
+
+.pies-wrapper.progress-29 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-29 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-29 .pie .left-side {
+  -webkit-transform: rotate(104deg);
+  transform: rotate(104deg);
+}
+
+.pies-wrapper.progress-30 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-30 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-30 .pie .left-side {
+  -webkit-transform: rotate(108deg);
+  transform: rotate(108deg);
+}
+
+.pies-wrapper.progress-31 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-31 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-31 .pie .left-side {
+  -webkit-transform: rotate(112deg);
+  transform: rotate(112deg);
+}
+
+.pies-wrapper.progress-32 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-32 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-32 .pie .left-side {
+  -webkit-transform: rotate(115deg);
+  transform: rotate(115deg);
+}
+
+.pies-wrapper.progress-33 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-33 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-33 .pie .left-side {
+  -webkit-transform: rotate(119deg);
+  transform: rotate(119deg);
+}
+
+.pies-wrapper.progress-34 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-34 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-34 .pie .left-side {
+  -webkit-transform: rotate(122deg);
+  transform: rotate(122deg);
+}
+
+.pies-wrapper.progress-35 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-35 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-35 .pie .left-side {
+  -webkit-transform: rotate(126deg);
+  transform: rotate(126deg);
+}
+
+.pies-wrapper.progress-36 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-36 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-36 .pie .left-side {
+  -webkit-transform: rotate(130deg);
+  transform: rotate(130deg);
+}
+
+.pies-wrapper.progress-37 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-37 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-37 .pie .left-side {
+  -webkit-transform: rotate(133deg);
+  transform: rotate(133deg);
+}
+
+.pies-wrapper.progress-38 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-38 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-38 .pie .left-side {
+  -webkit-transform: rotate(137deg);
+  transform: rotate(137deg);
+}
+
+.pies-wrapper.progress-39 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-39 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-39 .pie .left-side {
+  -webkit-transform: rotate(140deg);
+  transform: rotate(140deg);
+}
+
+.pies-wrapper.progress-40 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-40 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-40 .pie .left-side {
+  -webkit-transform: rotate(144deg);
+  transform: rotate(144deg);
+}
+
+.pies-wrapper.progress-41 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-41 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-41 .pie .left-side {
+  -webkit-transform: rotate(148deg);
+  transform: rotate(148deg);
+}
+
+.pies-wrapper.progress-42 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-42 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-42 .pie .left-side {
+  -webkit-transform: rotate(151deg);
+  transform: rotate(151deg);
+}
+
+.pies-wrapper.progress-43 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-43 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-43 .pie .left-side {
+  -webkit-transform: rotate(155deg);
+  transform: rotate(155deg);
+}
+
+.pies-wrapper.progress-44 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-44 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-44 .pie .left-side {
+  -webkit-transform: rotate(158deg);
+  transform: rotate(158deg);
+}
+
+.pies-wrapper.progress-45 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-45 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-45 .pie .left-side {
+  -webkit-transform: rotate(162deg);
+  transform: rotate(162deg);
+}
+
+.pies-wrapper.progress-46 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-46 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-46 .pie .left-side {
+  -webkit-transform: rotate(166deg);
+  transform: rotate(166deg);
+}
+
+.pies-wrapper.progress-47 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-47 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-47 .pie .left-side {
+  -webkit-transform: rotate(169deg);
+  transform: rotate(169deg);
+}
+
+.pies-wrapper.progress-48 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-48 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-48 .pie .left-side {
+  -webkit-transform: rotate(173deg);
+  transform: rotate(173deg);
+}
+
+.pies-wrapper.progress-49 .pie .right-side {
+  display: none;
+}.pies-wrapper.progress-49 .pie .half-circle{
+  border-color:  #ff0000;
+}.pies-wrapper.progress-49 .pie .left-side {
+  -webkit-transform: rotate(176deg);
+  transform: rotate(176deg);
+}
+
+.pies-wrapper.progress-50 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-50 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-50 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-50 .pie .left-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.pies-wrapper.progress-51 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-51 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-51 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-51 .pie .left-side {
+  -webkit-transform: rotate(184deg);
+  transform: rotate(184deg);
+}
+
+.pies-wrapper.progress-52 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-52 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-52 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-52 .pie .left-side {
+  -webkit-transform: rotate(187deg);
+  transform: rotate(187deg);
+}
+
+.pies-wrapper.progress-53 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-53 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-53 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-53 .pie .left-side {
+  -webkit-transform: rotate(191deg);
+  transform: rotate(191deg);
+}
+
+.pies-wrapper.progress-54 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-54 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-54 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-54 .pie .left-side {
+  -webkit-transform: rotate(194deg);
+  transform: rotate(194deg);
+}
+
+.pies-wrapper.progress-55 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-55 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-55 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-55 .pie .left-side {
+  -webkit-transform: rotate(198deg);
+  transform: rotate(198deg);
+}
+
+.pies-wrapper.progress-56 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-56 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-56 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-56 .pie .left-side {
+  -webkit-transform: rotate(202deg);
+  transform: rotate(202deg);
+}
+
+.pies-wrapper.progress-57 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-57 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-57 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-57 .pie .left-side {
+  -webkit-transform: rotate(205deg);
+  transform: rotate(205deg);
+}
+
+.pies-wrapper.progress-58 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-58 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-58 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-58 .pie .left-side {
+  -webkit-transform: rotate(209deg);
+  transform: rotate(209deg);
+}
+
+.pies-wrapper.progress-59 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-59 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-59 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-59 .pie .left-side {
+  -webkit-transform: rotate(212deg);
+  transform: rotate(212deg);
+}
+
+.pies-wrapper.progress-60 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-60 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-60 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-60 .pie .left-side {
+  -webkit-transform: rotate(216deg);
+  transform: rotate(216deg);
+}
+
+.pies-wrapper.progress-61 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-61 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-61 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-61 .pie .left-side {
+  -webkit-transform: rotate(220deg);
+  transform: rotate(220deg);
+}
+
+.pies-wrapper.progress-62 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-62 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-62 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-62 .pie .left-side {
+  -webkit-transform: rotate(223deg);
+  transform: rotate(223deg);
+}
+
+.pies-wrapper.progress-63 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-63 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-63 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-63 .pie .left-side {
+  -webkit-transform: rotate(227deg);
+  transform: rotate(227deg);
+}
+
+.pies-wrapper.progress-64 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-64 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-64 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-64 .pie .left-side {
+  -webkit-transform: rotate(230deg);
+  transform: rotate(230deg);
+}
+
+.pies-wrapper.progress-65 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-65 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-65 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-65 .pie .left-side {
+  -webkit-transform: rotate(234deg);
+  transform: rotate(234deg);
+}
+
+.pies-wrapper.progress-66 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-66 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-66 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-66 .pie .left-side {
+  -webkit-transform: rotate(238deg);
+  transform: rotate(238deg);
+}
+
+.pies-wrapper.progress-67 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-67 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-67 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-67 .pie .left-side {
+  -webkit-transform: rotate(241deg);
+  transform: rotate(241deg);
+}
+
+.pies-wrapper.progress-68 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-68 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-68 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-68 .pie .left-side {
+  -webkit-transform: rotate(245deg);
+  transform: rotate(245deg);
+}
+
+.pies-wrapper.progress-69 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-69 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-69 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-69 .pie .left-side {
+  -webkit-transform: rotate(248deg);
+  transform: rotate(248deg);
+}
+
+.pies-wrapper.progress-70 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-70 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-70 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-70 .pie .left-side {
+  -webkit-transform: rotate(252deg);
+  transform: rotate(252deg);
+}
+
+.pies-wrapper.progress-71 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-71 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-71 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-71 .pie .left-side {
+  -webkit-transform: rotate(256deg);
+  transform: rotate(256deg);
+}
+
+.pies-wrapper.progress-72 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-72 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-72 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-72 .pie .left-side {
+  -webkit-transform: rotate(259deg);
+  transform: rotate(259deg);
+}
+
+.pies-wrapper.progress-73 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-73 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-73 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-73 .pie .left-side {
+  -webkit-transform: rotate(263deg);
+  transform: rotate(263deg);
+}
+
+.pies-wrapper.progress-74 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-74 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-74 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-74 .pie .left-side {
+  -webkit-transform: rotate(266deg);
+  transform: rotate(266deg);
+}
+
+.pies-wrapper.progress-75 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-75 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-75 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-75 .pie .left-side {
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.pies-wrapper.progress-76 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-76 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-76 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-76 .pie .left-side {
+  -webkit-transform: rotate(274deg);
+  transform: rotate(274deg);
+}
+
+.pies-wrapper.progress-77 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-77 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-77 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-77 .pie .left-side {
+  -webkit-transform: rotate(277deg);
+  transform: rotate(277deg);
+}
+
+.pies-wrapper.progress-78 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-78 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-78 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-78 .pie .left-side {
+  -webkit-transform: rotate(281deg);
+  transform: rotate(281deg);
+}
+
+.pies-wrapper.progress-79 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-79 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-79 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-79 .pie .left-side {
+  -webkit-transform: rotate(284deg);
+  transform: rotate(284deg);
+}
+
+.pies-wrapper.progress-80 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-80 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-80 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-80 .pie .left-side {
+  -webkit-transform: rotate(288deg);
+  transform: rotate(288deg);
+}
+
+.pies-wrapper.progress-81 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-81 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-81 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-81 .pie .left-side {
+  -webkit-transform: rotate(292deg);
+  transform: rotate(292deg);
+}
+
+.pies-wrapper.progress-82 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-82 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-82 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-82 .pie .left-side {
+  -webkit-transform: rotate(295deg);
+  transform: rotate(295deg);
+}
+
+.pies-wrapper.progress-83 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-83 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-83 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-83 .pie .left-side {
+  -webkit-transform: rotate(299deg);
+  transform: rotate(299deg);
+}
+
+.pies-wrapper.progress-84 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-84 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-84 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-84 .pie .left-side {
+  -webkit-transform: rotate(302deg);
+  transform: rotate(302deg);
+}
+
+.pies-wrapper.progress-85 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-85 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-85 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-85 .pie .left-side {
+  -webkit-transform: rotate(306deg);
+  transform: rotate(306deg);
+}
+
+.pies-wrapper.progress-86 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-86 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-86 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-86 .pie .left-side {
+  -webkit-transform: rotate(310deg);
+  transform: rotate(310deg);
+}
+
+.pies-wrapper.progress-87 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-87 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-87 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-87 .pie .left-side {
+  -webkit-transform: rotate(313deg);
+  transform: rotate(313deg);
+}
+
+.pies-wrapper.progress-88 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-88 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-88 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-88 .pie .left-side {
+  -webkit-transform: rotate(317deg);
+  transform: rotate(317deg);
+}
+
+.pies-wrapper.progress-89 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-89 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-89 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-89 .pie .left-side {
+  -webkit-transform: rotate(320deg);
+  transform: rotate(320deg);
+}
+
+.pies-wrapper.progress-90 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-90 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-90 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-90 .pie .left-side {
+  -webkit-transform: rotate(324deg);
+  transform: rotate(324deg);
+}
+
+.pies-wrapper.progress-91 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-91 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-91 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-91 .pie .left-side {
+  -webkit-transform: rotate(328deg);
+  transform: rotate(328deg);
+}
+
+.pies-wrapper.progress-92 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-92 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-92 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-92 .pie .left-side {
+  -webkit-transform: rotate(331deg);
+  transform: rotate(331deg);
+}
+
+.pies-wrapper.progress-93 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-93 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-93 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-93 .pie .left-side {
+  -webkit-transform: rotate(335deg);
+  transform: rotate(335deg);
+}
+
+.pies-wrapper.progress-94 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-94 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-94 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-94 .pie .left-side {
+  -webkit-transform: rotate(338deg);
+  transform: rotate(338deg);
+}
+
+.pies-wrapper.progress-95 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-95 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-95 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-95 .pie .left-side {
+  -webkit-transform: rotate(342deg);
+  transform: rotate(342deg);
+}
+
+.pies-wrapper.progress-96 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-96 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-96 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-96 .pie .left-side {
+  -webkit-transform: rotate(346deg);
+  transform: rotate(346deg);
+}
+
+.pies-wrapper.progress-97 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-97 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-97 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-97 .pie .left-side {
+  -webkit-transform: rotate(349deg);
+  transform: rotate(349deg);
+}
+
+.pies-wrapper.progress-98 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-98 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-98 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-98 .pie .left-side {
+  -webkit-transform: rotate(353deg);
+  transform: rotate(353deg);
+}
+
+.pies-wrapper.progress-99 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-99 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-99 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-99 .pie .left-side {
+  -webkit-transform: rotate(356deg);
+  transform: rotate(356deg);
+}
+
+.pies-wrapper.progress-100 .pie {
+  clip: rect(auto, auto, auto, auto);
+}.pies-wrapper.progress-100 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}.pies-wrapper.progress-100 .pie .half-circle {
+  border-color: #ff0000;
+}.pies-wrapper.progress-100 .pie .left-side {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
